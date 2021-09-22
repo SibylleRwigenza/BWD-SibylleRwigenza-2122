@@ -7,24 +7,35 @@ _vul alle kruisjes in!_
 ## A. SITE TITEL
 _dit is de bedrijfsnaam, organisatie, naam webshop..._
 
-X
+X 
 
 ## B. SLAGZIN
 _bedenk een slagzin van 3 tot 10 woorden wat jouw site de gebruiker biedt; vermijd holle uitdrukkingen als “de beste producten” of “service op maat voor iedereen”; probeer echt te beschrijven wat je site uniek maakt!_
 
-X
+X Sweets on demand
 
 ## C. KORTE BESCHRIJVING 
 _beschrijf in een paar zinnen de inhoud / functionaliteit van je site_
 
-X
+X 
+* Website voor een cateringbedrjf (enkel gebakken goederen).
+*Opties van de verschillende gebakken goederen tonen vb: brownie,verjaardagstaart,chocoladetaart etc. + de prijzen
+* via de site een bestelling afnemen
+* basisinformatie: waar en wanneer je de goederen kunt ophalen(adres), contact informatie: telefoonnummer, 
+
+
+
+
 
 ## D. LANGE BESCHRIJVING 
 _beschrijf welke pagina’s je wil maken, en met welke inhoud / functionaliteit; typisch zul je een homepagina, contactpagina, overzichtspagina en detailpagina hebben_
 
 ### PAGINA 1 
-naam: X  
-beschrijving:
+naam: X  homepagina 
+beschrijving: 
+
+
+
 
 X
 
