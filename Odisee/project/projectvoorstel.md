@@ -8,20 +8,23 @@ _vul alle kruisjes in!_
 _dit is de bedrijfsnaam, organisatie, naam webshop..._
 
 X 
+Baking&co
 
 ## B. SLAGZIN
 _bedenk een slagzin van 3 tot 10 woorden wat jouw site de gebruiker biedt; vermijd holle uitdrukkingen als “de beste producten” of “service op maat voor iedereen”; probeer echt te beschrijven wat je site uniek maakt!_
 
-X Sweets on demand
+X 
+Sweets on demand
 
 ## C. KORTE BESCHRIJVING 
 _beschrijf in een paar zinnen de inhoud / functionaliteit van je site_
 
 X 
-* Website voor een cateringbedrjf (enkel gebakken goederen).
-*Opties van de verschillende gebakken goederen tonen vb: brownie,verjaardagstaart,chocoladetaart etc. + de prijzen
-* via de site een bestelling afnemen
-* basisinformatie: waar en wanneer je de goederen kunt ophalen(adres), contact informatie: telefoonnummer, 
+* Het is een website voor een cateringbedrjf (cakes,taarten enz.).
+* Opties van de klant meegeven vb: brownie,verjaardagstaart,chocoladetaart etc. + de prijzen
+*  contact informatie: telefoonnummer, adres, email, nummer
+* info over de services die worden gegeven
+* bestelling kunnen afnemen
 
 
 
@@ -59,6 +62,9 @@ X
 
 ## E. REFERENTIES (optioneel) 
 zet hier links naar bronnen als de eventuele huidige website, sites of designs waar je je op wil inspireren... 
+
+catering website[ https://www.littlewolfcatering.co.nz/ ]
+free images [https://pixabay.com/images/search/baking%20logo%20/]
 
 online versie [https://www.mijndomein.com](https://www.mijndomein.com)  
 gebruikte CSS design: [https://www.gratis-css-site.com/gekozen-design](https://www.gratis-css-site.com/gekozen-design) 
