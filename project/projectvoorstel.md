@@ -107,10 +107,12 @@ embedden google maps afhaaladres + daarnaast contactinfo oplijsten (nummer, mail
 
  [copyright logo] 2021 Baking&co
 
-### PAGINA 4
+### PAGINA 4  
+
+{DEZE PAGINA WEGLATEN}
+
 naam: 
 X  bestellingspagina
-
 beschrijving:
 
 X
