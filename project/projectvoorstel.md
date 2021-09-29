@@ -30,7 +30,9 @@ X
 ## D. LANGE BESCHRIJVING 
 _beschrijf welke pagina’s je wil maken, en met welke inhoud / functionaliteit; typisch zul je een homepagina, contactpagina, overzichtspagina en detailpagina hebben_
 
+OPMERKINGEN:
 [LEVEL 1 = bovenste deel van de pagina]
+dE LOGO IS EEN LINK 
 
 ### PAGINA 1 
 naam:
@@ -43,12 +45,13 @@ beschrijving:
 LOGO en bedrijfsnaam, daaronder de slagzin (redelijk grote lettergrootte gebruiken)
 -- > hieronder een menubalk
   
-  de menubalk bevat: HOME,ASSORTIMENT,CONTACT US,BESTEL NU
+  
+  de menubalk bevat: HOME,ASSORTIMENT,CONTACT US {,BESTEL NU}
 
 *LEVEL 2
-caroussel (links naar het assortiment nl.  TAARTEN, GROTE TAARTEN,KLEINE GEBAKJES,BRODEN
+"caroussel" (links naar het assortiment nl.  TAARTEN, GROTE TAARTEN,KLEINE GEBAKJES,BRODEN
 +
-rechts van de caroussel: plaats voor tekst (info over het bedrijf) met titel "WIE ZIJN WIJ?"
+rechts van de caroussel: plaats voor tekst (info over het bedrijf) met titel "WIE ZIJN WIJ?" en "Wat wij aanbieden"
 
 *LEVEL 3
 nieuwsletter met tekst: "meld je aan, bij deze nieuwsletter en blijf up-to-date met het bedrijf"
@@ -70,17 +73,17 @@ X
 LOGO en bedrijfsnaam = daaronder de slagzin (redel grote lettertype)
 -- > hieronder een menubalk
 
-*LEVEL 2 
-Link naar bestelling pagina - > naam van deze link: BESTEL NU
+{*LEVEL 2 
+Link naar bestelling pagina - > naam van deze link: BESTEL NU}
 
 *LEVEL 3
 interne links van verschillende delen van het assortiment (TAART,GROTE TAARTEN,...)
 
 
 *LEVEL 4
-De delen worden opgedeeld in 'hoofdstukken' en het heel assortiment is terugtevinden op pagina 2.
+De delen worden opgedeeld in 'hoofdstukken' en het hele assortiment is terug te vinden op pagina 2.
 
-fotogallarij per  deel (dus vb. TAART)
+fotogallarij per deel (dus vb. TAART)
 onder elk gallerij naam dessert+ prijs + optie om foto's te kunnen vergroten.
 
 *LEVEL 5
@@ -96,8 +99,8 @@ LOGO en bedrijfsnaam = daaronder de slagzin (redel grote lettertype)
 -- > hieronder een menubalk
 
 *LEVEL 2
-Link naar bestelling pagina - > naam van deze link: BESTEL NU
-hiernaast
+{Link naar bestelling pagina - > naam van deze link: BESTEL NU
+0hiernaast}
 Link naar pagina 3 - > naam van de link: ASSORTIMENT
 
 *LEVEL 3 
