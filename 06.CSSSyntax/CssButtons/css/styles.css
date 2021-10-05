@@ -1,0 +1,33 @@
+
+.btn1{
+background-color: rgb(141, 135, 135);
+border: black;
+display: inline-block;
+text-transform: uppercase;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+flood-color: black;
+padding: 5px 5px 5px 5px;
+}
+
+.btn2{
+	background-color: rgb(141, 135, 135);
+	border: black 5px 5px 5px 5px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 5px 5px 5px;
+	}
+
+.btn3{
+		background-color: rgb(141, 135, 135);
+		border: black 5px 5px 5px 5px;
+		display: inline-block;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 5px 5px 5px 5px;
+		}
+		
+
