@@ -27,4 +27,6 @@ verbetering:
 	</address>
 
 
+link toegevoegd bij de icoontjes (einde van de pagina)
+
 ## Oefeningen 03.Media
