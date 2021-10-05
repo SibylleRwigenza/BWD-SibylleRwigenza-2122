@@ -1,33 +1,41 @@
 
 .btn1{
 background-color: rgb(141, 135, 135);
-border: black;
 display: inline-block;
 text-transform: uppercase;
 text-decoration: none;
 font-family: Arial, Helvetica, sans-serif;
-flood-color: black;
-padding: 5px 5px 5px 5px;
+color: black;
+padding: 15px;
+border: black;
 }
 
 .btn2{
-	background-color: rgb(141, 135, 135);
-	border: black 5px 5px 5px 5px;
+	background-color: rgb(167, 56, 56);
+	border: rgb(12, 12, 12);
+    border-radius: 1in;
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	padding: 5px 5px 5px 5px;
+	padding: 15px;
+	color: white;
 	}
 
 .btn3{
 		background-color: rgb(141, 135, 135);
-		border: black 5px 5px 5px 5px;
+		background-image: none;
+		background-repeat: inherit;
+		background-color: rgb(243, 235, 235);
+		background-position-x: inherit;
+		background-position-y:;
+		color: black;
 		display: inline-block;
-		text-transform: uppercase;
+		text-transform: none;
 		text-decoration: none;
 		font-family: Arial, Helvetica, sans-serif;
-		padding: 5px 5px 5px 5px;
+		font-size: small;
+		padding: 5px;
 		}
 		
 
