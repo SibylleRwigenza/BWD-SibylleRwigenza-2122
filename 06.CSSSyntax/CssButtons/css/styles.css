@@ -1,43 +1,56 @@
 .btn1 {
-	background-color: rgb(141, 135, 135);
+	background-color: #cccc;
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	color: black;
+	color: #11111;
 	padding: 15px;
-	border: black;
+	border: solid 2px;
+	transition: 2s;
 }
 
 .btn1:hover {
 	background-color: black;
-	color: white
+	color: #ffff;
 }
 
 .btn2 {
-	background-color: rgb(167, 56, 56);
-	border: blacks;
+	background-color: #b80f0a;
 	border-radius: 1in;
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
+	transition: 2s;
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 15px;
-	color: white;
+	color: #ffff;
+}
+
+.btn2:hover {
+	background-color: #c55957;
+	color: #ffff;
 }
 
 .btn3 {
-	background-color: rgb(141, 135, 135);
-	background-image: none;
-	background-repeat: inherit;
-	background-color: rgb(243, 235, 235);
-	background-position-x: inherit;
-	background-position-y: ;
-	color: black;
-	display: inline-block;
+	background-image: url(img/logo-tiktok.png);
+	border-image-width: 20%;
+	background-color: #cccc;
+	background-size: 30px;
+	background-position-x: 10px;
+	background-position-y: 7px;
+	background-repeat: no-repeat;
+	background display: inline-block;
 	text-transform: none;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: small;
-	padding: 5px;
+	padding: 15px 15px 15px 50px;
+	color: black;
+}
+
+.btn3:hover {
+	text-decoration: underline;
+	background-size: 35px;
+	transition: 2s;
 }
