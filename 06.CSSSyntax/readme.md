@@ -6,4 +6,5 @@ img probleem aangepast:
   =>background-image: url(../img/bg.png); 
   bij Love Letter en CSS Buttons
 
+
 ## Oefeningen 06.CSS Syntax
