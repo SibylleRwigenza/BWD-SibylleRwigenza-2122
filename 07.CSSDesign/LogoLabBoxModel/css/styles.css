@@ -5,13 +5,16 @@
 /* header */
 
 header {
-	padding-bottom: 160px;
 	border-bottom: solid 60px #ebebeb;
 }
 
+header .wrapper{
+	padding-bottom: 160px;
+}
 nav li {
 	padding: 10px;
 	margin: 0px;
+	
 }
 
 nav a {
