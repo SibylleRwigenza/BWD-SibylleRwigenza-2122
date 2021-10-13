@@ -1,0 +1,154 @@
+/**
+ *
+ * Common styles
+ *
+ * @Sibyllerwigenza !put your name here!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+
+header {
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 13px;
+}
+
+html {
+	background-color: #b1b1aa;
+}
+
+/* ... */
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	list-style: none;
+	padding: 10px;
+	margin: 5px;
+}
+
+nav li a {
+	color: #000;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	background-size: 50px;
+}
+
+nav li a:hover {
+	background-color: #B52025;
+	color: #ffff;
+	text-decoration: underline;
+	transition: 0.5s;
+	padding: 10px;
+}
+
+a.active {
+	background-color: #B52025;
+	padding: 10px;
+	color: #ffff;
+}
+
+/* ... */
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+
+div#banner {
+	background-image: url(../img/slider_photo2.jpg);
+	border: #B52025 solid 8px;
+}
+
+div#banner p {
+	background-color: #000;
+	color: #ffff;
+	opacity: 0.7;
+}
+
+/* ... */
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+
+main {
+	background-color: #fff;
+}
+
+h3 {
+	color: #B52025;
+	line-height: 1.8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 1000;
+	text-transform: uppercase;
+}
+
+h3:after {
+	content: "→";
+}
+
+img.minibanner {
+	border: solid #808080 1px;
+}
+
+.more a {
+	border: solid #B52025 2px;
+	border-radius: 5px;
+	border-width: 1px;
+	color: #B52025;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.more a::after {
+	content: "»";
+}
+
+input#email {
+	background-color: #FDEAEB;
+}
+
+input {
+	background-color: #B52025;
+	color: #fff;
+}
+
+form label {
+	display: none;
+}
+
+/* ... */
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+footer {
+	border-top: dotted 1px #dfdfdf;
+	text-align: center;
+	background: linear-gradient(#cccc 40%, #fff);
+}
+
+/* footer styles here */
+
+/* ... */
