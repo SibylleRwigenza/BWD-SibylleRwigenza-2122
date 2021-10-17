@@ -31,9 +31,15 @@ img {
 	max-width: 100%;
 }
 
-div#gallerij ul li img {
+#gallery ul {
 	align-items: center;
-	flex-wrap: nowrap;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	
+}
+
+#gallery ul li{
 	max-width: 23%;
 }
 
@@ -43,18 +49,19 @@ div#gallerij ul li img {
 
 /*  ##F */
 div#content{
-	align-items: center;
+	align-items: baseline;
+	display: flex;
 	flex-wrap: nowrap;
+	max-width: 100%;
 	justify-content: space-between;
 }
 
-
-section.left{
+aside.left{
 	max-width: 65%;
 }
 
-section.right{
-	max-width: 30%;
+aside.right{
+	max-width: 35%;
 }
 
 /* ======= */
