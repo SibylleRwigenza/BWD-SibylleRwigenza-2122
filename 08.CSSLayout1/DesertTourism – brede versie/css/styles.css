@@ -10,6 +10,11 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 960px;
 }
 
@@ -17,15 +22,27 @@ body {
 
 /* HEADER */
 
-header {
+header .wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
+nav ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
 /* ====== */
 
 /* MAIN */
+
+main {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+}
 
 img {
 	max-width: 100%;
@@ -36,10 +53,9 @@ img {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	
 }
 
-#gallery ul li{
+#gallery ul li {
 	max-width: 23%;
 }
 
@@ -48,28 +64,55 @@ img {
 /* CONTENT */
 
 /*  ##F */
-div#content{
+
+div#content {
 	align-items: baseline;
 	display: flex;
 	flex-wrap: nowrap;
-	max-width: 100%;
 	justify-content: space-between;
 }
 
-aside.left{
+aside.left {
 	max-width: 65%;
 }
 
-aside.right{
+aside.right {
 	max-width: 35%;
+}
+
+img.visual {
+	float: left
+}
+
+img.thumb {
+	float: right;
 }
 
 /* ======= */
 
 /* DOORMAT */
 
+div#doormat .wrapper {
+	display: flex;
+	padding-right: 60px;
+	justify-content: space-between;
+}
+
+section.doormat_col {
+	justify-content: space-between;
+}
+
 /* ======= */
 
 /* FOOTER */
+
+footer .wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer p {
+	float: inline-end;
+}
 
 /* ======= */
