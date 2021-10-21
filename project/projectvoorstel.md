@@ -148,6 +148,7 @@ zet hier links naar bronnen als de eventuele huidige website, sites of designs w
 
 catering website[https://www.littlewolfcatering.co.nz/  ]
 free images [https://pixabay.com/images/search/baking%20logo%20/]
+https://www.pexels.com/fr-fr/chercher/bread/ 
 
 online versie [https://www.mijndomein.com](https://www.mijndomein.com)  
 gebruikte CSS design: [https://www.gratis-css-site.com/gekozen-design](https://www.gratis-css-site.com/gekozen-design) 

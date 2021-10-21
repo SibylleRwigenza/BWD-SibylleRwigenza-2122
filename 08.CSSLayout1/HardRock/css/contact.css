@@ -1,0 +1,78 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+/* top */
+
+main {
+	display: flex;
+	flex-flow: column;
+}
+
+#main_top {
+	padding: 30px 15px 0 15px;
+}
+
+#main_top h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+address {
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+/* bottom */
+
+div#bottom_content {
+	display: flex;
+	padding: 30px 15px 0 15px;
+}
+
+iframe {
+	border: none;
+}
+
+div#bottom_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* form */
+
+form label {
+	font-size: 16px;
+	font-style: italic;
+}
+
+form input {
+	padding: 7px;
+}
+
+form p {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	width: 48%;
+}
+
+.right {
+	width: 48%;
+}
+
+label {
+	width: 25%;
+}
+
+input, textarea {
+	width: 75%;
+}
+
+textarea#inpMessage {
+	line-height: 70px;
+}
