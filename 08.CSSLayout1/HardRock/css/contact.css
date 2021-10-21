@@ -41,6 +41,10 @@ div#bottom_content {
 	justify-content: space-between;
 }
 
+h2#reservewall {
+	margin-left: 15px;
+}
+
 /* form */
 
 form label {

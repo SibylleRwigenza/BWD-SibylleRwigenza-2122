@@ -1,10 +1,12 @@
 /* general */
-h1,h2.skate,h2.commit,a.letter,a.learnmore,div#report p,a.blue{
+
+h1, h2.skate, h2.commit, a.letter, a.learnmore, div#report p, a.blue {
 	color: #0288CC;
 }
-body{
+
+body {
 	font-family: 'Secular One', sans-serif;
-	}
+}
 
 /*        */
 
@@ -26,7 +28,6 @@ header.wrapper {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
-	position: bottom;
 }
 
 ul#mainmenu {
@@ -56,173 +57,187 @@ ul#mainmenu li a:hover {
 	background-image: url(../img/header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 130px;
+	min-height: 100%;
 }
 
 div.bannertext {
-	max-width: 300px;
 	color: #ffffff;
+	max-width: 300px;
 }
 
 div#banner .wrapper {
 	align-items: flex-end;
 	display: flex;
 	justify-content: flex-end;
-	bottom: auto;
-	
+	bottom: 2px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
 
-}
-p.p1{
+p.p1 {
 	font-size: 40px;
+	margin-bottom: 0px;
 }
+p.p2 {
+	margin-bottom: 50px;
+}
+
+
+
 /* main */
+
 /* ***** */
-h2{
+
+h2 {
 	margin-bottom: 2px;
 }
-p{
 
+p.p1 {
+	font-weight: 600;
 }
 
 /* ourcommitments */
+
 div.ourcommitments {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
 	margin-bottom: 26px;
 }
-div#people,div#planet,div#plate{
+
+div#people, div#planet, div#plate {
 	width: 30%;
 }
 
-h2.commit{
+h2.commit {
 	margin: 0px;
 }
 
-img.commit{
-	border-bottom:  #66BB44 solid 6px;
+img.commit {
+	border-bottom: #66BB44 solid 6px;
 }
-a.learnmore{
-	text-decoration: none;
 
+a.learnmore {
+	text-decoration: none;
 }
 
 /* ourskate */
 
-section.ourskate{
+section.ourskate {
 	block-size: auto;
 	display: flex;
 	justify-content: space-between;
-
 }
 
-
-div#video,div#report,div.text{
+div#video, div#report, div.text {
 	width: 30%;
 }
 
-div#report{
+div#report {
 	color: #0288CC;
 	border: #0288CC solid 1px;
 	background-color: #D0E7F4;
 	margin-top: 20px;
 	height: 135px;
-
 }
 
-div#report ul{
+div#report ul {
 	list-style: none;
 	padding-left: 20px;
 }
-div#report li:not(.report){
+
+div#report li:not(.report) {
 	padding-top: 2px;
 	padding-bottom: 4px;
 }
 
-p.report{
-	font-weight: bold	;
+p.report {
+	font-weight: bold;
 }
-a.learnmore,a.letter{
+
+a.learnmore, a.letter {
 	text-decoration: none;
 }
-a.blue{
+
+a.blue {
 	padding-top: 2px;
-	text-decoration: underline #0288CC solid 1px;
 }
 
-
-
-
 /* footer */
-footer{
+
+footer {
 	background-color: #0E0E0E;
 	margin-top: 68px;
 }
 
-footer div.wrapper{
+footer div.wrapper {
 	align-items: center;
 	display: flex;
+	justify-content: space-between;
 	padding-bottom: 30px;
 	padding-top: 30px;
-
 }
-ul#contact{
+
+ul#contact {
 	color: #ffffff;
 	list-style: none;
-	padding-left: 0px;	
-	margin: 0px;	
-
+	padding-left: 0px;
+	margin: 0px;
 }
-div.textcontact,p.right{
+
+div.textcontact, p.right {
 	align-items: center;
 	color: #ffffff;
 	display: flex;
-	
 }
-div.textcontact:not(small div.textcontact){
+
+div.textcontact:not(small div.textcontact) {
 	text-decoration: underline;
 	padding-bottom: 6px;
-	
 }
-div.textcontact:not(ul#contact div.textcontact){
-	color: #c1c1c1;
 
-	
+div.textcontact:not(ul#contact div.textcontact) {
+	color: #c1c1c1;
 }
-div.textcontact li{
+
+div.textcontact li {
 	padding-right: 16px;
 }
 
-
-label.eg{
+label.eg {
 	display: none;
 }
-div.left{
+
+div.left {
 	width: 70%;
 }
-div.right{
+
+div.right {
 	align-items: center;
 	display: flex;
 	justify-content: flex-end;
-	justify-content:space-between;
-	width: 45%;
-
-}	
-
-p.right{
+	width: 47%;
+}
+div#contact a#text{
+	font-size: 14px;
+					
+}
+p.right {
 	color: #c1c1c1;
 	text-align: left;
 	font-size: 14px;
-	width: 24%;
+	width: 30%;
 }
-input{
+p.report{
+	font-weight: 650;
+}
+
+input {
 	border-radius: 0px;
 	border-style: hidden;
+	padding: 5px 5px 5px 5px;
 }
-input.email{
-	padding: 5px 3px 5px 4px;
-}
-input.submit{
-	padding: 5px 7px 5px 7px;
+
+input.submit {
 	margin-left: 6px;
 }

@@ -43,7 +43,8 @@ main {
 	margin-right: auto;
 	max-width: 960px;
 }
-main.wrapper{
+
+main.wrapper {
 	padding: 0px;
 }
 
@@ -66,7 +67,6 @@ img {
 
 /* CONTENT */
 
-
 div#content {
 	align-items: baseline;
 	display: flex;
@@ -74,17 +74,17 @@ div#content {
 	justify-content: space-between;
 }
 
-aside.left {
-	max-width: 65%;
+section.left {
+	width: 63%;
 }
 
 aside.right {
-	max-width: 35%;
+	width: 32%;
 }
 
 img.visual {
-	float: left
-	margin: right 1px;
+	float: left;
+	margin-right: 1px;
 }
 
 img.thumb {
