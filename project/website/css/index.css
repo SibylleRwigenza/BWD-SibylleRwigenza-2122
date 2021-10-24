@@ -1,0 +1,97 @@
+/* main */
+/* **** */
+main{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-top: 20px;
+}
+#baked .wrapper figure{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+} 
+#baked{
+	width: 420px;
+}
+#baked .wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 420px;
+}
+#baked figure img{
+	width: 180px;
+}
+#baked .wrapper figcaption a{
+	background-color: #B43740;
+	background-size: cover;
+	color: #000;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#baked .wrapper figcaption a:hover{
+	color: #fff;
+	background-color: #B43740;
+	background-image: linear-gradient( #B43740, #EB6D6E, #B43740);
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+#bread{
+	margin-top: 31px;
+}
+figure.gt{
+	margin: 80px 25px 5px 0px;
+}
+figure:not(figure.gt){
+	margin: 0px 25px 5px 0px ;
+}
+#p1 img,#p2 img{
+	width: 100px;
+}
+
+.mid{
+	display: flex;
+	flex-direction: row;
+}
+div.uitleg{
+	width: 400px;
+}
+div#p1,div#p2{
+	border: #B43740 solid 2px;
+	border-radius: 305px;
+	padding: 56px;
+}
+
+div#p2{
+	margin-top: 20px;
+}
+
+/* nieuwsletter */
+
+.letter{
+	background-color: #E0A36F;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 30px;
+	margin-top: 87px;
+}
+.letter .wrapper ul{
+	list-style-type:circle;
+}
+input#email{
+	background-color: #F2D7C3;
+}
+input:not(input#email){
+	background-color: #B43740;
+	color: #fffff0;
+}
+input{
+	border: #B43740 solid 2px;
+}
+label{
+	display: none;
+}
+

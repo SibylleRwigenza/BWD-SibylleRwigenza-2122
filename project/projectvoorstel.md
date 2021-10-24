@@ -152,3 +152,9 @@ https://www.pexels.com/fr-fr/chercher/bread/
 
 online versie [https://www.mijndomein.com](https://www.mijndomein.com)  
 gebruikte CSS design: [https://www.gratis-css-site.com/gekozen-design](https://www.gratis-css-site.com/gekozen-design) 
+
+<!-- mijn designinspiratie -->
+https://www.pinterest.com/pin/32228953573403410/
+https://www.dunkindelivery.be/
+https://www.pinterest.com/pin/110549365840903374/
+

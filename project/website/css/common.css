@@ -1,0 +1,117 @@
+/* body */
+/* *** */
+body:not(div.wrapper){
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #E9CECA;
+}
+
+/* header general */
+/* **** */
+div.toppage{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+h1{
+	color: #fff;
+}
+a.logo{
+	text-decoration: none;
+}
+/* logotittel */
+img.logo{
+	width: 120px;
+	margin-right: 35px;
+}
+h1{
+	font-size: 70px;
+	text-transform: uppercase;
+}
+.logotittel{
+	align-items: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+/* nav */
+
+nav div.wrapper{
+	display: flex;
+	width: 600px;
+	justify-content: center;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding-left: 0px;
+	width: 624px;
+}
+
+nav li{
+	list-style: none;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+}
+nav li:not(:last-child){
+	border-right: #823051 solid 2px;
+}
+
+nav li a{
+	padding: 8px;
+	text-decoration: none;
+}
+nav li a:hover{
+	background-color: #fff;
+	color: #E0A36F;
+	padding: 8px;
+	transition: 0.2s;
+}
+/* bestel insta */
+p#insta img{
+	width: 30px;
+}
+p#insta {
+	width: 30px;
+}
+
+div.links{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+header div.wrapper{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	justify-content: center;
+}
+.links .wrapper a:not(p#insta a){
+	color: #000;
+	text-transform: uppercase;
+	background-color: #B43740;
+	padding: 5px 8px 8px 8px;
+	text-decoration: none;
+	
+}
+.links .wrapper a:not(p#insta a):hover{
+	color: #fff;
+	background-color: #B43740;
+	background-image: linear-gradient( #B43740, #EB6D6E, #B43740);
+	padding: 5px 8px 8px 8px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+/* footer */
+footer{
+	color: #823051;
+	width: 960px;
+}
+footer .wrapper p{
+	text-align: center;
+}
