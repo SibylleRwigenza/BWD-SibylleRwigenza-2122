@@ -149,6 +149,7 @@ main {
 /* ===========================================
    Blog entries
    =========================================== */
+
 .entry h1 {
 	font-size: 21px;
 	font-weight: bold;
@@ -158,10 +159,12 @@ main {
 	font-size: 14px;
 	margin: 10px 0;
 }
+
 .subtitle {
 	display: flex;
 	flex-direction: column;
 }
+
 .entry .date {
 	opacity: 0.60;
 }
@@ -205,7 +208,7 @@ main {
 	padding: 12px 24px;
 }
 
-.comments{
+.comments {
 	display: none;
 }
 
@@ -333,7 +336,6 @@ main {
    Media queries
    =========================================== */
 
-
 @media (min-width: 550px) {
 	header>h1 {
 		font-size: 36px;
@@ -343,14 +345,13 @@ main {
 	}
 	header>p {
 		font-size: 15px;
-
 		display: block;
 	}
 	.entry .subtitle {
 		font-size: 18px;
 		margin: 10px 0;
 	}
-	.comments{
+	.comments {
 		display: flex;
 	}
 	.site_footer {
@@ -371,21 +372,21 @@ main {
 }
 
 @media (min-width: 700px) {
-		nav ul {
-			display: flex;
-			justify-content: center;
-			text-align: center;
-		}
-		.entry h1{
-			font-size: 35px;
-		}
-		.subtitle{
-			display: block;
-		}
+	nav ul {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.entry h1 {
+		font-size: 35px;
+	}
+	.subtitle {
+		display: block;
+	}
 }
+
 @media (min-width: 950px) {
-		main {
-			display: flex;
-		}
+	main {
+		display: flex;
+	}
 }
-	
