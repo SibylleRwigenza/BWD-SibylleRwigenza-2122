@@ -5,7 +5,9 @@ h1, h2.skate, h2.commit, a.letter, a.learnmore, div#report p, a.blue {
 }
 
 body {
+	border-top: #0288CC solid 3px ;
 	font-family: 'Secular One', sans-serif;
+	margin: 0px;
 }
 
 /*        */
@@ -25,8 +27,8 @@ img {
 /*         */
 
 header.wrapper {
+	align-items: center;
 	display: flex;
-	flex-flow: row;
 	justify-content: space-between;
 }
 
@@ -40,7 +42,7 @@ ul#mainmenu {
 ul#mainmenu li a {
 	display: flex;
 	text-decoration: none;
-	padding: 8px;
+	padding: 12px;
 	color: #66BB44;
 }
 
@@ -58,11 +60,16 @@ ul#mainmenu li a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100%;
+	padding-top: 20px;
+	padding-bottom: 150px;
 }
 
 div.bannertext {
 	color: #ffffff;
-	max-width: 300px;
+	display: flex;
+	max-width: 400px;
+	flex-flow: column;
+	justify-content: flex-end;
 }
 
 div#banner .wrapper {
@@ -70,8 +77,6 @@ div#banner .wrapper {
 	display: flex;
 	justify-content: flex-end;
 	bottom: 2px;
-	padding-top: 50px;
-	padding-bottom: 10px;
 }
 
 p.p1 {
@@ -80,6 +85,7 @@ p.p1 {
 }
 p.p2 {
 	margin-bottom: 50px;
+	line-height: 1.5;
 }
 
 
@@ -87,7 +93,9 @@ p.p2 {
 /* main */
 
 /* ***** */
-
+h1{
+	padding-top: 20px;
+}
 h2 {
 	margin-bottom: 2px;
 }
@@ -160,6 +168,7 @@ a.learnmore, a.letter {
 }
 
 a.blue {
+	font-size: 13px;
 	padding-top: 2px;
 }
 
@@ -177,6 +186,10 @@ footer div.wrapper {
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
+footer .textcontact li+li::before{
+	content: "|";
+	padding-right: 8px;
+}
 
 ul#contact {
 	color: #ffffff;
@@ -189,11 +202,12 @@ div.textcontact, p.right {
 	align-items: center;
 	color: #ffffff;
 	display: flex;
+	font-size: 10px;
 }
 
 div.textcontact:not(small div.textcontact) {
 	text-decoration: underline;
-	padding-bottom: 6px;
+	padding-bottom: 5px;
 }
 
 div.textcontact:not(ul#contact div.textcontact) {
