@@ -247,7 +247,7 @@ main {
 }
 
 .popular img+p {
-	font-size: 18px;
+	font-size: 17px;
 }
 
 .popular h3, #tags h3 {
@@ -354,6 +354,9 @@ main {
 		font-size: 18px;
 		margin: 10px 0;
 	}
+	.entry h1 {
+		font-size: 31px;
+	}
 	.comments {
 		display: flex;
 	}
@@ -381,7 +384,7 @@ main {
 		text-align: center;
 	}
 	.entry h1 {
-		font-size: 35px;
+		font-size: 33px;
 	}
 	.subtitle {
 		display: block;

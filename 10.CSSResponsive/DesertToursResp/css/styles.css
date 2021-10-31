@@ -121,7 +121,7 @@ footer p {
 	}
 
   }
-  @media (min-width: 700px) {
+  @media (min-width: 720px) {
 	header .wrapper {
 		align-items: center;
 		display: flex;
@@ -155,6 +155,10 @@ footer p {
 	nav ul li {
 		display: inline-block;
 		margin: 5px;
+	}
+	div#doormat .wrapper {
+		display: flex;
+		justify-content: space-between;
 	}
   }
   @media (min-width: 900px) {
