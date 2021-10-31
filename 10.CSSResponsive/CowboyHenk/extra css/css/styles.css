@@ -5,20 +5,21 @@
  *
  */
 
+
 /* ===========================================
    Reset
    =========================================== */
 
 img {
-	border: 0;
+   border: 0;
 }
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
-
+   
 /* ===========================================
    General
    =========================================== */
@@ -27,13 +28,13 @@ body {
 	background-color: #f1f1f1;
 	color: #000;
 	font-family: "Raleway", sans-serif;
-	font-size: 12px;
+	font-size: 15px; 
 	line-height: 1.5;
 }
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 1200px;
+	width: 1200px;
 }
 
 a {
@@ -53,6 +54,7 @@ ul {
 	list-style: none;
 }
 
+
 /* ===========================================
    Header
    =========================================== */
@@ -61,8 +63,8 @@ header {
 	padding: 32px 16px;
 }
 
-header>h1 {
-	font-size: 26px;
+header > h1 {
+	font-size: 36px;
 	font-weight: bold;
 	margin: 10px 0;
 	text-align: center;
@@ -76,7 +78,7 @@ header .inverted {
 
 @keyframes bummer {
 	0% {
-		transform: scale(0, 0);
+		transform: scale(0,0); 
 	}
 }
 
@@ -85,9 +87,10 @@ header p {
 	text-align: center;
 	-webkit-animation: bummer 2s;
 	animation: bummer 2s;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
+	-webkit-transform: scale(1,1); 
+	transform: scale(1,1);
 }
+
 
 /* ===========================================
    Nav
@@ -97,10 +100,12 @@ nav {
 	padding-bottom: 16px;
 }
 
-nav ul li {
+nav ul {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
+
 
 nav li.active {
 	background-color: #ccc;
@@ -116,13 +121,14 @@ nav li a {
 	padding: 8px 16px;
 }
 
+
 /* ===========================================
    Cards
    =========================================== */
 
 .card {
 	background: #fff;
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	margin: 32px 16px;
 }
 
@@ -139,33 +145,28 @@ nav li a {
    =========================================== */
 
 main {
-	display: inline-block;
+	display: flex;
+}
+#blogentries {
+	width: 800px;
+}   
+aside {
+	width: 400px;
 }
 
-#blogentries {
-	width: 150%;
-}
 
 /* ===========================================
    Blog entries
    =========================================== */
 
-#blogentries{
-	width: 100%;
-}
 .entry h1 {
-	font-size: 21px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 .entry .subtitle {
-	font-size: 14px;
+	font-size: 18px;
 	margin: 10px 0;
-}
-
-.subtitle {
-	display: flex;
-	flex-direction: column;
 }
 
 .entry .date {
@@ -192,7 +193,8 @@ main {
 	text-transform: uppercase;
 }
 
-.entry .badge, .entry .tag {
+.entry .badge, 
+.entry .tag {
 	background-color: #000;
 	color: #fff;
 	display: inline-block;
@@ -211,9 +213,6 @@ main {
 	padding: 12px 24px;
 }
 
-.comments {
-	display: none;
-}
 
 /* ===========================================
    CV
@@ -227,6 +226,7 @@ main {
 	margin: 15px 0 10px 0;
 }
 
+
 /* ===========================================
    Popular
    =========================================== */
@@ -234,7 +234,7 @@ main {
 .popular li img {
 	float: left;
 	margin-right: 16px;
-	max-width: 50px;
+	width: 50px;
 }
 
 .popular li {
@@ -246,11 +246,12 @@ main {
 	background-color: #ccc;
 }
 
-.popular img+p {
+.popular img + p {
 	font-size: 18px;
 }
 
-.popular h3, #tags h3 {
+.popular h3, 
+#tags h3 {
 	background-color: #f1f1f1;
 	font-size: 20px;
 	font-weight: 400;
@@ -269,6 +270,7 @@ main {
 	background-color: #f1f1f1;
 	display: inline-block;
 	margin-bottom: 16px;
+
 }
 
 #tags li a {
@@ -277,15 +279,15 @@ main {
 	padding: 0 8px;
 }
 
+
 /* ===========================================
    Footer
    =========================================== */
 
+
 .site_footer {
 	background-color: #616161;
 	color: #fff;
-	display: flex;
-	justify-content: center;
 }
 
 .site_footer a {
@@ -293,11 +295,16 @@ main {
 }
 
 .site_footer .wrapper {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 	margin-top: 16px;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 32px 16px;
+}
+
+.site_footer .buttons, 
+.site_footer .social {
+	margin: 0;
+	text-align: center;
 }
 
 .site_footer .buttons a {
@@ -319,19 +326,19 @@ main {
 }
 
 .site_footer .social {
-	text-align: center;
+	text-align: right;
 	margin-top: 32px;
 }
 
-.site_footer .social a {
+.site_footer .social a  {
 	font-size: 21px;
 }
 
-.site_footer .social a+a {
+.site_footer .social a + a {
 	padding-left: 15px;
 }
 
-.site_footer .social p+p {
+.site_footer .social p + p {
 	margin-top: 3px;
 }
 
@@ -339,60 +346,3 @@ main {
    Media queries
    =========================================== */
 
-@media (min-width: 550px) {
-	header>h1 {
-		font-size: 36px;
-		font-weight: bold;
-		margin: 10px 0;
-		text-align: center;
-	}
-	header>p {
-		font-size: 15px;
-		display: block;
-	}
-	.entry .subtitle {
-		font-size: 18px;
-		margin: 10px 0;
-	}
-	.comments {
-		display: flex;
-	}
-	.site_footer {
-		background-color: #616161;
-		color: #fff;
-		display: block;
-	}
-	.site_footer .wrapper {
-		display: flex;
-		justify-content: space-between;
-		margin-top: 16px;
-		padding: 32px 16px;
-	}
-	.site_footer .social {
-		text-align: right;
-		margin-top: 0px;
-	}
-}
-
-@media (min-width: 700px) {
-	nav ul {
-		display: flex;
-		justify-content: center;
-		text-align: center;
-	}
-	.entry h1 {
-		font-size: 35px;
-	}
-	.subtitle {
-		display: block;
-	}
-}
-
-@media (min-width: 950px) {
-	main {
-		display: flex;
-	}
-	#blogentries{
-		width: 150%	;
-	}
-}
