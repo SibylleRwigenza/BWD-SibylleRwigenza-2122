@@ -1,117 +1,126 @@
-/* body */
-/* *** */
-body:not(div.wrapper){
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: Verdana, Arial, sans-serif;
-	background-color: #E9CECA;
+/**
+ * Styles voor Baking&Co
+ *
+ *
+ */
+
+/* GENERAL */
+
+/* ****** */
+
+img {
+	width: 100%;
 }
 
-/* header general */
-/* **** */
-div.toppage{
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+* {
+	box-sizing: border-box;
 }
-h1{
-	color: #fff;
+
+body {
+	color: #343148;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0;
 }
-a.logo{
+
+.menubar>.wrapper, footer .wrapper {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* HEADER */
+
+/* ***** */
+
+header {
+	background-color: #F7CAC9;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+a.logo {
 	text-decoration: none;
 }
-/* logotittel */
-img.logo{
-	width: 120px;
-	margin-right: 35px;
+
+img.logo {
+	margin-right: 10px;
+	width: 52px;
 }
-h1{
-	font-size: 70px;
-	text-transform: uppercase;
+
+img.insta {
+	width: 18px;
 }
-.logotittel{
+
+.menu a, a.logo {
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+}
+
+.menubar {
+	border-top: #343148 solid 2px;
+	font-size: 14px;
+	padding: 10px 40px;
+}
+
+.menubar .wrapper {
 	align-items: center;
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	justify-content: center;
+	justify-content: space-between;
 }
-/* nav */
 
-nav div.wrapper{
-	display: flex;
-	width: 600px;
-	justify-content: center;
+.menubar li {
+	list-style-type: none;
 }
-nav ul{
+
+.menubar li a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu {
+	align-items: center;
 	display: flex;
-	justify-content: center;
+	padding: 0;
+}
+
+.menulinks li a {
+	padding: 10px 10px 8px 10px;
+}
+
+.menulinks li a:hover {
+	background-color: #DEB5B5;
+	padding: 10px 10px 8px 10px;
+	transition: 1s;
+}
+
+.logotittel {
+	align-items: center;
+	display: flex;
 	flex-direction: row;
-	padding-left: 0px;
-	width: 624px;
 }
 
-nav li{
-	list-style: none;
-	text-decoration: none;
-	padding: 5px 10px 5px 10px;
-}
-nav li:not(:last-child){
-	border-right: #823051 solid 2px;
-}
+/* FOOTER */
 
-nav li a{
-	padding: 8px;
-	text-decoration: none;
-}
-nav li a:hover{
-	background-color: #fff;
-	color: #E0A36F;
-	padding: 8px;
-	transition: 0.2s;
-}
-/* bestel insta */
-p#insta img{
-	width: 30px;
-}
-p#insta {
-	width: 30px;
-}
+/* ***** */
 
-div.links{
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
-header div.wrapper{
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	width: 600px;
-	justify-content: center;
-}
-.links .wrapper a:not(p#insta a){
-	color: #000;
-	text-transform: uppercase;
-	background-color: #B43740;
-	padding: 5px 8px 8px 8px;
-	text-decoration: none;
-	
-}
-.links .wrapper a:not(p#insta a):hover{
+footer {
+	background: #343148;
 	color: #fff;
-	background-color: #B43740;
-	background-image: linear-gradient( #B43740, #EB6D6E, #B43740);
-	padding: 5px 8px 8px 8px;
-	text-decoration: none;
-	transition: 0.3s;
 }
-/* footer */
-footer{
-	color: #823051;
-	width: 960px;
-}
-footer .wrapper p{
-	text-align: center;
+
+footer p {
+	border-top: solid 1px #797979;
+	margin: 0;
+	padding: 25px 40px 25px 0px;
+	font-size: 16px;
 }

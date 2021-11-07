@@ -1,97 +1,137 @@
-/* main */
-/* **** */
-main{
+/**
+ * Styles voor Baking&Co
+ *
+ *
+ */
+
+/* SWEETS */
+
+/* ***** */
+
+.slagzin {
+	color: #797979;
+	font-size: 35px;
+}
+
+.slagzin::after, .slagzin::before {
+	content: " - ";
+}
+
+#sweets {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	margin-top: 20px;
+	margin-top: 45px;
 }
-#baked .wrapper figure{
-	align-items: center;
+
+.fig {
 	display: flex;
-	flex-direction: column;
-} 
-#baked{
-	width: 420px;
 }
-#baked .wrapper{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 420px;
+
+figure {
+	border: solid 2px;
+	border: #00000012 solid 1px;
+	padding: 20px 30px;
+	margin-left: 8px;
+	margin-right: 8px;
 }
-#baked figure img{
-	width: 180px;
+
+figure p a>img {
+	max-width: 230px;
 }
-#baked .wrapper figcaption a{
-	background-color: #B43740;
-	background-size: cover;
-	color: #000;
-	padding: 10px;
+
+figcaption {
+	color: #F7CAC9;
+	border-radius: 0;
+	font-size: 16px;
+	text-align: center;
+	transition: .3s;
+}
+
+figcaption a {
+	background: #343148;
+	color: #F7CAC9;
+	padding: 12px 20px;
 	text-decoration: none;
-	text-transform: uppercase;
 }
-#baked .wrapper figcaption a:hover{
-	color: #fff;
-	background-color: #B43740;
-	background-image: linear-gradient( #B43740, #EB6D6E, #B43740);
-	padding: 10px;
+
+figcaption a:hover {
+	color: #343148;
+	background: #F7CAC9;
+	border-radius: 0;
+	font-size: 16px;
+	margin-top: 5px;
+	padding: 12px 20px;
+	transition: .3s;
 	text-decoration: none;
-	transition: 0.3s;
-}
-#bread{
-	margin-top: 31px;
-}
-figure.gt{
-	margin: 80px 25px 5px 0px;
-}
-figure:not(figure.gt){
-	margin: 0px 25px 5px 0px ;
-}
-#p1 img,#p2 img{
-	width: 100px;
 }
 
-.mid{
+figure img {
+	margin-bottom: 15px;
+}
+
+/* INFO*/
+
+/* ***** */
+
+.info {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+}
+
+#textwi>h2, #textwa>h2 {
+	font-size: 35px;
+}
+
+.p1>p, .p2>p {
+	color: #797979;
+}
+
+/* LETTTER */
+
+/* ***** */
+
+.letter {
 	display: flex;
-	flex-direction: row;
-}
-div.uitleg{
-	width: 400px;
-}
-div#p1,div#p2{
-	border: #B43740 solid 2px;
-	border-radius: 305px;
-	padding: 56px;
+	background-color: #F7CAC9;
+	justify-content: center;
 }
 
-div#p2{
-	margin-top: 20px;
+.letter .wrapper li {
+	list-style-type: square;
 }
 
-/* nieuwsletter */
-
-.letter{
-	background-color: #E0A36F;
-	padding: 5px 10px 5px 10px;
-	margin-bottom: 30px;
-	margin-top: 87px;
-}
-.letter .wrapper ul{
-	list-style-type:circle;
-}
-input#email{
-	background-color: #F2D7C3;
-}
-input:not(input#email){
-	background-color: #B43740;
-	color: #fffff0;
-}
-input{
-	border: #B43740 solid 2px;
-}
-label{
+form p label {
 	display: none;
 }
 
+#email {
+	border-color: #00000012;
+	border-radius: 0;
+	padding: 6px 15px;
+}
+
+input:last-child {
+	padding: 6px 15px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #F7CAC9;
+	background: #343148;
+	border-radius: 0;
+	transition: .3s;
+}
+
+input:last-child:hover {
+	padding: 6px 15px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #343148;
+	background: #fff;
+	border-radius: 0;
+	border-color: #fff;
+	transition: .3s;
+}

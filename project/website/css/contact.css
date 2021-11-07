@@ -1,0 +1,71 @@
+/**
+ * Styles voor Baking&Co
+ *
+ *
+ */
+
+/* SECTION + INSTAGRAMPOSTS*/
+
+/* ********************** */
+
+section, aside {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
+
+h2 {
+	color: #343148;
+	font-size: 35px;
+	margin-top: 12px;
+}
+
+aside>h2::after, aside>h2::before {
+	content: " - ";
+}
+
+/* SECTION*/
+
+/* ***** */
+
+section {
+	justify-content: center;
+	display: flex;
+}
+
+section>div {
+	padding-left: 30px;
+}
+
+address {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.4;
+}
+
+address a {
+	text-decoration: none;
+	color: #343148;
+	font-style: normal;
+}
+
+span.material-icons {
+	font-size: 17px;
+	padding-right: 5px;
+}
+
+/* INSTAGRAMPOSTS */
+
+/* ************** */
+
+aside {
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+aside>div {
+	display: flex;
+}

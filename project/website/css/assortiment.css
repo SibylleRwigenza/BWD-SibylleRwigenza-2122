@@ -1,5 +1,131 @@
-/* assortiment */
-#baked figure img {
-    width: 180 	px
-;
+/**
+ * Styles voor Baking&Co
+ *
+ *
+ */
+
+/* GENERAL */
+
+/* ***** */
+
+img {
+	width: 100%;
+	object-fit: fill;
+}
+
+main {
+	margin: 45px auto;
+}
+
+/* assortiment + BLOK */
+
+/* ********************/
+
+h2::after, h2::before, .assortiment .wrapper>p::before, .assortiment .wrapper>p::after {
+	content: " - ";
+}
+
+h2, .assortiment .wrapper>p {
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+/* ASSORTIMENT */
+
+/* ***** */
+
+.assortiment .wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.assortiment .wrapper li {
+	list-style-type: none;
+}
+
+.textasso ul li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.textasso ul li a {
+	background: none;
+	border-radius: 0;
+	border: 1px solid #343148;
+	color: #343148;
+	margin: 5px;
+	padding: 6px 12px;
+	text-decoration: none;
+}
+
+.textasso ul li:hover {
+	display: inline-block;
+	color: #343148;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.textasso ul li a:hover {
+	background-color: #343148;
+	border-radius: 0;
+	border: 1px solid #343148;
+	color: #F7CAC9;
+	margin: 5px;
+	padding: 6px 12px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+/* BLOK */
+
+/* ***** */
+
+.blok {
+	align-items: center;
+	display: flex;
+	border: solid 2px;
+	border: #00000012 solid 1px;
+	padding: 20px 30px;
+	margin: 15px;
+}
+
+.blok ul>li:not(:first-child) {
+	color: #797979;
+	list-style-type: none;
+}
+
+.blok ul>li:first-child {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+.blok ul:first-child a {
+	color: #343148;
+}
+
+.asso {
+	display: inline-block;
+	column-count: 2;
+	max-width: 80%;
+}
+
+.taarten, .kleinegebakjes, .grotetaarten, .broden {
+	margin: 40px 0px 40px 0px;
+}
+
+section>.wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper p>img {
+	width: 150px;
+	overflow: hidden;
 }

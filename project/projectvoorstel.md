@@ -1,4 +1,6 @@
 # Basic Web Development, projectvoorstel
+<!-- OPMERKING -->
+mijn project is voor een fictieve klant, goedgekeurd door de docent
 
 _vul alle kruisjes in!_
 
@@ -24,13 +26,14 @@ X
 * Opties van de klant meegeven vb. brownie,verjaardagstaart,chocoladetaart etc. + de prijzen
 * contact informatie: telefoonnummer, afhaaladres, email, openinsguren
 * info over de services die worden gegeven
-* bestelling aanvraag kunnen doorsturen via de site
 * aanmelden aan de nieuwsletter
+<!-- behoort tot pagina 4 -->
+(* bestelling aanvraag kunnen doorsturen via de site)
 
 ## D. LANGE BESCHRIJVING 
 _beschrijf welke pagina’s je wil maken, en met welke inhoud / functionaliteit; typisch zul je een homepagina, contactpagina, overzichtspagina en detailpagina hebben_
 
-OPMERKINGEN:
+<!-- OPMERKING: -->
 [LEVEL 1 = bovenste deel van de pagina]
 dE LOGO IS EEN LINK 
 
@@ -46,7 +49,7 @@ LOGO en bedrijfsnaam, daaronder de slagzin (redelijk grote lettergrootte gebruik
 -- > hieronder een menubalk
   
   
-  de menubalk bevat: HOME,ASSORTIMENT,CONTACT US {,BESTEL NU}
+  de menubalk bevat: HOME,ASSORTIMENT,CONTACT US ,BESTEL NU
 
 *LEVEL 2
 "caroussel" (links naar het assortiment nl.  TAARTEN, GROTE TAARTEN,KLEINE GEBAKJES,BRODEN
@@ -70,21 +73,21 @@ naam:
 beschrijving:
 X
 *LEVEL 1 
-LOGO en bedrijfsnaam = daaronder de slagzin (redel grote lettertype)
+LOGO en bedrijfsnaam = daaronder de slagzin (redelijk grote lettertype)
 -- > hieronder een menubalk
 
-{*LEVEL 2 
-Link naar bestelling pagina - > naam van deze link: BESTEL NU}
+*LEVEL 2 
+Link naar (fictieve)bestellingspagina - > naam van deze link: BESTEL NU
+
 
 *LEVEL 3
 interne links van verschillende delen van het assortiment (TAART,GROTE TAARTEN,...)
 
 
 *LEVEL 4
-De delen worden opgedeeld in 'hoofdstukken' en het hele assortiment is terug te vinden op pagina 2.
+De delen worden zijn 'hoofdstukken' en het hele assortiment is terug te vinden op pagina 2.
 
-fotogallarij per deel (dus vb. TAART)
-onder elk gallerij naam dessert+ prijs + optie om foto's te kunnen vergroten.
+onder elk deel naam dessert+ prijs + optie om foto's te kunnen vergroten.
 
 *LEVEL 5
  [copyright logo] 2021 Baking&co
@@ -95,16 +98,15 @@ beschrijving:
 
 X
 * LEVEL 1 
-LOGO en bedrijfsnaam = daaronder de slagzin (redel grote lettertype)
+LOGO en bedrijfsnaam = daaronder de slagzin (redelijk grote lettertype)
 -- > hieronder een menubalk
 
 *LEVEL 2
-{Link naar bestelling pagina - > naam van deze link: BESTEL NU
-0hiernaast}
-Link naar pagina 3 - > naam van de link: ASSORTIMENT
+Link naar (fictieve) bestelling pagina - > naam van deze link: BESTEL NU 
+{Link naar pagina 3 - > naam van de link: ASSORTIMENT}
 
 *LEVEL 3 
-embedden google maps afhaaladres + daarnaast contactinfo oplijsten (nummer, mail, openingsuren en afhaaladres)
+embedden google maps afhaaladres + daarnaast contactinfo oplijsten (nummer, mail, {openingsuren} en afhaaladres)
  
 *LEVEL 4
 
@@ -112,7 +114,7 @@ embedden google maps afhaaladres + daarnaast contactinfo oplijsten (nummer, mail
 
 ### PAGINA 4  
 
-{DEZE PAGINA WEGLATEN}
+<!-- toestemming gekregen door docent om deze pagin weg te laten -->
 
 naam: 
 X  bestellingspagina
@@ -146,15 +148,15 @@ disclaimer toevoegen naast het formulier zeggende dat de bestelling pas doorgaat
 ## E. REFERENTIES (optioneel) 
 zet hier links naar bronnen als de eventuele huidige website, sites of designs waar je je op wil inspireren... 
 
-catering website[https://www.littlewolfcatering.co.nz/  ]
+<!-- bestaand catering website -->
+[https://www.littlewolfcatering.co.nz/  ]
+<!-- css template -->
+https://www.free-css.com/free-css-templates/page267/yooga
+<!-- links: sites gratis img -->
 free images [https://pixabay.com/images/search/baking%20logo%20/]
 https://www.pexels.com/fr-fr/chercher/bread/ 
 
 online versie [https://www.mijndomein.com](https://www.mijndomein.com)  
 gebruikte CSS design: [https://www.gratis-css-site.com/gekozen-design](https://www.gratis-css-site.com/gekozen-design) 
 
-<!-- mijn designinspiratie -->
-https://www.pinterest.com/pin/32228953573403410/
-https://www.dunkindelivery.be/
-https://www.pinterest.com/pin/110549365840903374/
 
