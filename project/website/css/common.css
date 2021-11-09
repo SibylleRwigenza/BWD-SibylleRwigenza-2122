@@ -41,6 +41,7 @@ header {
 
 h1 {
 	font-size: 45px;
+	margin: 0;
 }
 
 a.logo {
@@ -69,7 +70,7 @@ img.insta {
 .menubar {
 	border-top: #343148 solid 2px;
 	font-size: 14px;
-	padding: 10px 40px;
+	padding: 20px 60px;	
 }
 
 .menubar .wrapper {
