@@ -148,9 +148,9 @@ disclaimer toevoegen naast het formulier zeggende dat de bestelling pas doorgaat
 ## E. REFERENTIES (optioneel) 
 zet hier links naar bronnen als de eventuele huidige website, sites of designs waar je je op wil inspireren... 
 
-<!-- bestaand catering website -->
+<!-- bestaand catering website voorbeeld-->
 [https://www.littlewolfcatering.co.nz/  ]
-<!-- css template -->
+<!--gebruikte css template -->
 https://www.free-css.com/free-css-templates/page267/yooga
 <!-- links: sites gratis img -->
 free images [https://pixabay.com/images/search/baking%20logo%20/]

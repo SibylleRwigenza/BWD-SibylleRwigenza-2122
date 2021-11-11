@@ -36,12 +36,12 @@ body {
 /* ***** */
 
 header {
-	background-color: #F7CAC9;
+	background-color: #f7cac9;
 }
 
 h1 {
 	font-size: 45px;
-	margin: 0;
+	margin: 0px 0px 10px 0px;
 }
 
 a.logo {
@@ -49,12 +49,15 @@ a.logo {
 }
 
 img.logo {
-	margin-right: 10px;
-	width: 52px;
+	display: none;
 }
 
 img.insta {
-	width: 18px;
+	width: 20px;
+}
+
+nav {
+	max-width: 600px;
 }
 
 .menu a, a.logo {
@@ -62,25 +65,24 @@ img.insta {
 }
 
 .menu {
-	display: flex;
-	justify-content: space-between;
-	text-decoration: none;
+	padding: 0;
+	text-align: center;
 }
 
 .menubar {
-	border-top: #343148 solid 2px;
 	font-size: 14px;
-	padding: 20px 60px;	
+	padding: 50px 60px;
 }
 
 .menubar .wrapper {
 	align-items: center;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
 }
 
 .menubar li {
 	list-style-type: none;
+	margin: 14px 0px;
 }
 
 .menubar li a {
@@ -88,19 +90,13 @@ img.insta {
 	text-transform: uppercase;
 }
 
-.menu {
-	align-items: center;
-	display: flex;
-	padding: 0;
-}
-
 .menulinks li a {
-	padding: 10px 10px 8px 10px;
+	padding: 5px;
 }
 
 .menulinks li a:hover {
-	background-color: #DEB5B5;
-	padding: 10px 10px 8px 10px;
+	background-color: #deb5b5;
+	padding: 5px;
 	transition: 1s;
 }
 
@@ -124,4 +120,65 @@ footer p {
 	margin: 0;
 	padding: 25px 40px 25px 0px;
 	font-size: 16px;
+	text-align: center;
+}
+
+/* MEDIA */
+
+/* **** */
+
+@media (min-width: 550px) {
+	h1 {
+		font-size: 70px;
+		margin: 0;
+	}
+	.menubar {
+		font-size: 20px;
+		padding: 50px 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 70px;
+		margin: 0;
+	}
+	.menubar .wrapper {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	img.logo {
+		display: initial;
+		margin-right: 10px;
+		max-width: 65px;
+	}
+	.menu {
+		display: flex;
+		justify-content: space-between;
+		text-decoration: none;
+		align-items: center;
+		display: flex;
+		padding: 0;
+	}
+	.menubar li {
+		list-style-type: none;
+		margin: 0;
+	}
+	.menubar {
+		font-size: 20px;
+		padding: 50px 60px;
+	}
+	.menulinks li a {
+		padding: 10px 10px 8px 10px;
+	}
+	.menulinks li a:hover {
+		background-color: #deb5b5;
+		padding: 10px 10px 8px 10px;
+		transition: 1s;
+	}
+	footer p {
+		text-align: start;
+	}
 }

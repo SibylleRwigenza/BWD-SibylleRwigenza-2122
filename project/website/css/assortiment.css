@@ -10,31 +10,30 @@
 
 img {
 	width: 100%;
-	object-fit: fill;
 }
 
-main {
-	margin: 45px auto;
-}
-
-/* assortiment + BLOK */
-
-/* ********************/
-
-h2::after, h2::before, .assortiment .wrapper>p::before, .assortiment .wrapper>p::after {
-	content: " - ";
-}
-
-h2, .assortiment .wrapper>p {
-	text-align: center;
-	font-weight: 700;
+h2::before, h2:after, h3::before, h3::after {
+	content: " ~ ";
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 27px;
 }
 
-/* ASSORTIMENT */
+h3, .assortiment .wrapper>p {
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+main {
+	margin: 0px auto 45px auto;
+}
+
+/* BANNER */
 
 /* ***** */
 
@@ -42,57 +41,79 @@ h2 {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 50px;
+	padding-top: 50px
 }
 
 .assortiment .wrapper li {
 	list-style-type: none;
 }
 
+.textasso {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 40%;
+}
+
+.textasso ul {
+	padding: 0;
+	text-align: center;
+}
+
 .textasso ul li {
-	display: inline-block;
+	display: flex;
 	font-size: 14px;
 	font-weight: 400;
+	justify-content: center;
+	padding: 10px;
 }
 
 .textasso ul li a {
 	background: none;
 	border-radius: 0;
 	border: 1px solid #343148;
-	color: #343148;
+	background-color: #343148;
+	color: #fff;
 	margin: 5px;
 	padding: 6px 12px;
 	text-decoration: none;
 }
 
 .textasso ul li:hover {
-	display: inline-block;
+	display: flex;
 	color: #343148;
 	font-size: 14px;
 	font-weight: 400;
+	justify-content: center;
+	padding: 10px;
 }
 
 .textasso ul li a:hover {
 	background-color: #343148;
 	border-radius: 0;
 	border: 1px solid #343148;
-	color: #F7CAC9;
+	color: #f7cac9;
 	margin: 5px;
 	padding: 6px 12px;
 	text-decoration: none;
 	transition: 0.3s;
 }
+/* 	ASSORTIMENT */
 
-/* BLOK */
-
-/* ***** */
-
+/* *********** */
 .blok {
-	align-items: center;
 	display: flex;
-	border: solid 2px;
 	border: #00000012 solid 1px;
-	padding: 20px 30px;
-	margin: 15px;
+	margin: 10px;
+	padding: 20px 10px 20px 10px;
+}
+
+.blok ul {
+	line-height: 1.5;
+}
+
+.blok ul li:last-child {
+	display: none;
 }
 
 .blok ul>li:not(:first-child) {
@@ -110,22 +131,67 @@ h2 {
 }
 
 .asso {
-	display: inline-block;
-	column-count: 2;
-	max-width: 80%;
-}
-
-.taarten, .kleinegebakjes, .grotetaarten, .broden {
-	margin: 40px 0px 40px 0px;
-}
-
-section>.wrapper {
-	align-items: center;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.taarten, .kleinegebakjes, .grotetaarten, .broden {
+	margin: 40px 0px 40px 0px;
 }
 
 .wrapper p>img {
 	width: 150px;
-	overflow: hidden;
+	padding-left: 35px;
+}
+
+/* MEDIA */
+
+/* **** */
+
+@media (min-width: 395px) {
+	h2 {
+		font-size: 33px;
+	}
+	h3 {
+		font-size: 30px;
+		text-align: center;
+	}
+}
+
+@media (min-width: 550px) {
+	h2 {
+		font-size: 40px;
+		margin: 0;
+	}
+	.assortiment {
+		background-image: url(../img/aanbieden.webp);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 100px 0px 0px 0px;
+	}
+	.textasso {
+		max-width: 100%;
+	}
+	.textasso ul li {
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 10px;
+	}
+	.textasso ul li:hover {
+		display: inline-block;
+		color: #343148;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 10px;
+	}
+}
+@media (min-width: 650px) {
+	.blok ul li:last-child {
+		display: inherit;
+	}
 }

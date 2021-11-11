@@ -4,9 +4,10 @@
  *
  */
 
-/* SECTION + INSTAGRAMPOSTS*/
+/* GENERAL*/
 
-/* ********************** */
+/* ******** */
+
 section, aside {
 	max-width: 1200px;
 	margin-left: auto;
@@ -14,49 +15,152 @@ section, aside {
 	padding-bottom: 45px;
 	padding-top: 45px;
 }
+
 h2 {
 	color: #343148;
 	font-size: 35px;
 	margin-top: 12px;
 	margin-bottom: 20px;
 }
+
 aside>h2::after, aside>h2::before {
-	content: " - ";
+	content: " ~ ";
 }
+
 /* SECTION*/
 
 /* ***** */
+
 section {
 	display: flex;
+	justify-content: center;
 }
-section > div {
-	padding-left: 103px;
+
+iframe {
+	background: #fff;
+	max-width: 300px;
+	width: calc(100% - 2px);
+	border-radius: 3px;
+	border: 1px solid #dbdbdb;
+	box-shadow: none;
+	display: block;
+	margin: 0px 0px 12px;
+	min-width: 500px;
+	padding: 0px;
 }
-#gglmaps{
-	padding-left: 37px;
+
+#gglmaps {
+	display: none;
 }
+
+h2, address {
+	text-align: center;
+}
+
 address {
 	display: flex;
 	flex-direction: column;
 	line-height: 1.7;
 }
+
 address a {
 	text-decoration: none;
 	color: #343148;
 	font-style: normal;
 }
+
 span.material-icons {
 	font-size: 17px;
 	padding-right: 5px;
 }
 
+form label {
+	display: none;
+}
+
+input {
+	width: 267px;
+	padding: 8px;
+}
+
+#Message {
+	margin: 0;
+	width: 267px;
+	height: 139px;
+}
+
+#submit {
+	color: #f7cac9;
+	background: #343148;
+	border-radius: 0;
+	font-size: 16px;
+	padding: 8px 27px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#submit:hover {
+	color: #343148;
+	background: #f7cac9;
+	border-radius: 0;
+	font-size: 16px;
+	padding: 8px 27px;
+	text-align: center;
+	text-decoration: none;
+	transition: .3s;
+}
+
 /* INSTAGRAMPOSTS */
 
 /* ************** */
-aside > h2{
+
+aside>h2 {
 	text-align: center;
 }
-.posts{
-	display: flex;
-	justify-content: space-around;
+
+/* MEDIA */
+
+/* **** */
+
+@media (min-width: 600px) {
+	#gglmaps {
+		display: block;
+	}
+	section {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 50%;
+	}
+	#adres {
+		padding-top: 42px;
+	}
+}
+
+@media (min-width: 940px) {
+	h2, address {
+		text-align: left;
+	}
+	#gglmaps {
+		display: block;
+		padding-left: 37px;
+	}
+	section>div {
+		padding-left: 103px;
+	}
+	section {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: left;
+		max-width: 1200px;
+	}
+	#adres {
+		padding-top: 0;
+	}
+}
+
+@media (min-width: 1320px) {
+	.posts {
+		display: flex;
+		justify-content: space-between;
+	}
 }
